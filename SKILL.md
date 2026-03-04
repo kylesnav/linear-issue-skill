@@ -140,6 +140,7 @@ Single-issue fast path. No confirmation needed.
      - [ ] Implement
      - [ ] `/simplify`
      - [ ] `/review` + tests
+     - [ ] File new issues for any bugs or unexpected scope creep discovered
      - [ ] Close this ticket when done
      - [ ] Leave a handoff note on the next ticket
      ```
