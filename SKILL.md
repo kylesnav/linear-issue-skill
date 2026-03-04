@@ -291,6 +291,21 @@ When creating or updating an issue that overlaps with or depends on an existing 
 - **Reference by identifier** — Use Linear identifiers (e.g., PROJ-3) in descriptions, not raw IDs
 - **Clarify boundaries** — State explicitly what each issue owns vs. what's handled elsewhere
 
+## Working an Issue
+
+1. Read the ticket — `/linear-issue PROJ-XX`
+2. Plan before coding for non-trivial work
+3. Execute; stay in scope
+4. `/simplify` — review changed code for reuse and quality
+5. `/review` and tests — verify acceptance criteria
+6. Check off the checklist — `/linear-issue check PROJ-XX all`
+7. Close — `/linear-issue PROJ-XX status:done`
+8. Handoff — `/linear-issue comment PROJ-NEXT "Handoff: <context>"`
+9. File any bugs, scope creep, or test gaps as new issues
+
+**When blocked:** Create a blocking issue, link it, set this issue to Blocked.
+**Test failures:** Fix inline if small and in scope; file a bug ticket otherwise.
+
 ## Error Handling
 
 | Error | Response |
