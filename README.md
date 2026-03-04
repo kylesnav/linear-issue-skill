@@ -62,6 +62,10 @@ That's it. Claude Code loads skills automatically from `~/.claude/skills/`.
 
 **Compound handoff** — Sets the source issue to Done and leaves a handoff comment on the target issue in one step.
 
+## Agent workflow
+
+When an agent is assigned a Linear ticket, see [WORKFLOW.md](WORKFLOW.md) for the full standard operating procedure — reading the ticket, planning, executing, testing, closing, and handing off.
+
 ## License
 
 MIT
