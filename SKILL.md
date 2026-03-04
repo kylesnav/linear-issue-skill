@@ -134,7 +134,15 @@ Single-issue fast path. No confirmation needed.
    4. If multiple teams → ask the user which team
 3. **Create the issue** — Call `save_issue` with:
    - `title`: Short, imperative. "Add health check endpoint" not "We should add a health check endpoint"
-   - `description`: Brief description (see Description Style below)
+   - `description`: Brief description (see Description Style below), followed by the standard checklist:
+     ```
+     - [ ] Plan (use plan mode for non-trivial work)
+     - [ ] Implement
+     - [ ] `/simplify`
+     - [ ] `/review` + tests
+     - [ ] Close this ticket when done
+     - [ ] Leave a handoff note on the next ticket
+     ```
    - `teamId`: Resolved team ID
    - `assigneeId`: `me`
    - `priority`: `3` unless user indicates urgency
